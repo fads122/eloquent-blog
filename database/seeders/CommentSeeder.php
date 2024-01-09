@@ -12,13 +12,13 @@ class CommentSeeder extends Seeder
     {
         // Seed comments
         Comment::create([
-            'post_id' => 1,
-            'body' => 'This is a comment on the first post.',
+            'post_id' => 3,
+            'body' => 'Sorry 22 pa pasukan namin.',
         ]);
 
         Comment::create([
-            'post_id' => 2,
-            'body' => 'This is a comment on the second post.',
+            'post_id' => 4,
+            'body' => 'Happy 1 Month Old NOAH!!.',
         ]);
 
         // Add more comments as needed...

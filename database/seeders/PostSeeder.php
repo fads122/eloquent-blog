@@ -12,13 +12,13 @@ class PostSeeder extends Seeder
     {
         // Seed posts
         Post::create([
-            'title' => 'First Post',
-            'content' => 'This is the content of the first post.',
+            'title' => 'Back 2 School',
+            'content' => 'When ang pasukan nyo? Jan 14 samin. Naol 22 pasukan.',
         ]);
 
         Post::create([
-            'title' => 'Second Post',
-            'content' => 'This is the content of the second post.',
+            'title' => 'Happy 1 Month Old Noah Hayven',
+            'content' => '1 Month Old Milestone',
         ]);
 
         // Add more posts as needed...
